@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  /* background-color: #333236; */
+  color: white;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ 
+  background:  white
+}
+
+
+
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+#form-errors {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #a21d4c;
+}
+
+
+
+main {
+  max-width: 50rem;
+  margin: 2rem auto;
+}
+
+
+
+#training-sessions li h2 {
+  margin: 1rem 0 0 0;
+  padding: 0 1rem;
+  color: #d0cfd6;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+#training-sessions li div {
+  text-align: center;
+}
+
+#training-sessions li p {
+  margin: 1rem;
+  color: #7c7a80;
+}
+
+
+
+
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 95px; /* Add padding to create space around the logo */
+  box-sizing: border-box;
+  border-bottom: 3px solid #010101;
+  position: absolute; /* Position the header at the top */
+  top: 0;
+}
+
+.header .logo {
+  font-size: 10vh;
+  color: #ffffff;
+  margin: 0;
+  
+}
+
+.get-started-btn {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.get-started-btn:hover {
+  background-color: #555555;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px; /* Space between the margin line and the content */
+  max-width: 900px;
+  padding: 20px;
+ 
+  border-radius: 20px;
+}
+
+.mainContent h2 {
+  font-size: 75px;
+  margin-bottom: 10px;
+}
+
+.mainContent p {
+  font-size: 20px;
+  line-height: 1;
+  text-align: center;
+}
+
+
+.cta-btn {
+  padding: 15px 30px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.cta-btn:hover {
+  background-color: #1d1a1a;
+}
+
+#form-errors {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #79384f;
+}
+
+.like-button {
+  background-color: transparent;
+  border: none;
+}
+
+.like-button svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: transparent;
+  stroke: #494646;
+}
+
+
+.liked .like-button svg {
+  fill: #f60505;
+}
+
+.liked .like-button:hover svg {
+  fill: #f60505;
+}
+
+.controls {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.picker .input {
+  display: none;
+}
+
+.picker .button {
+  border: 0;
+  padding: 0.5rem 1.5rem;
+  background: #a4abb9;
+  border-radius: 2px;
+  cursor: pointer;
+  font: inherit;
+}
+
+.picker .button:hover,
+.picker .button:focus {
+  background: #b3b9c6;
+}
+
+.preview {
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #a4abb9;
+  position: relative;
+}
+
+.preview p {
+  margin: 0;
+  padding: 1rem;
+}
+
+.preview img {
+  object-fit: cover;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
